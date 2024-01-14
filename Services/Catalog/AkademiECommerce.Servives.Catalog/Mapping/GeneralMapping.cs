@@ -17,7 +17,6 @@ namespace AkademiECommerce.Servives.Catalog.Mapping
             CreateMap<Product, ResultProductDto>().ReverseMap();
             CreateMap<Product, CreateProductDto>().ReverseMap();
             CreateMap<Product, UpdateProductDto>().ReverseMap();
-            
 
         }
             
