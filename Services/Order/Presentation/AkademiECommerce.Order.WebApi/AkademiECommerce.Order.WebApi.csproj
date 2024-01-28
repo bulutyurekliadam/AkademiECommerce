@@ -8,11 +8,21 @@
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.26">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.26">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\AkademiECommerce.Order.Application\AkademiECommerce.Order.Application.csproj" />
+    <ProjectReference Include="..\..\Core\AkademiECommerce.Order.Domain\AkademiECommerce.Order.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\AkademiECommerce.Order.Persistance\AkademiECommerce.Order.Persistance.csproj" />
   </ItemGroup>
 
 </Project>
