@@ -1,11 +1,15 @@
-﻿using AkademiECommerce.Order.Application.Features.Mediator.Commands;
+﻿using AkademiECommerce.Order.Application.Features.CQRS.Handlers;
+using AkademiECommerce.Order.Application.Features.Mediator.Commands;
 using AkademiECommerce.Order.Application.Features.Mediator.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AkademiECommerce.Order.WebApi.Controllers
 {
-    public class OrderingController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class OrderingController : ControllerBase
     {
         private readonly IMediator _mediator;
 
@@ -45,3 +49,4 @@ namespace AkademiECommerce.Order.WebApi.Controllers
         }
     }
 }
+
