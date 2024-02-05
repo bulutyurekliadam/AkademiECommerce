@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiECommerce.Order.WebA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiECommerce.IdentityServer", "IdentityServer\AkademiECommerce.IdentityServer\AkademiECommerce.IdentityServer.csproj", "{D716D643-C0E2-420F-9E7B-78E1D07D109F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiECommerce.Basket", "Services\Basket\AkademiECommerce.Basket\AkademiECommerce.Basket.csproj", "{CBDFE359-EE59-45F9-9412-FA8D63C40875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{D716D643-C0E2-420F-9E7B-78E1D07D109F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D716D643-C0E2-420F-9E7B-78E1D07D109F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D716D643-C0E2-420F-9E7B-78E1D07D109F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDFE359-EE59-45F9-9412-FA8D63C40875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDFE359-EE59-45F9-9412-FA8D63C40875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDFE359-EE59-45F9-9412-FA8D63C40875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDFE359-EE59-45F9-9412-FA8D63C40875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +121,7 @@ Global
 		{CA99DA4E-E346-4F13-8833-CF426A3C3AB1} = {A479DB8A-45E1-49F3-9E92-7DDA74C2188D}
 		{2849B9DF-E2DF-4A32-B230-EDB917593093} = {7CC6BAC4-05E6-4F8B-91AD-B322AF802D87}
 		{D716D643-C0E2-420F-9E7B-78E1D07D109F} = {5B14ACF3-BFE4-4AB1-8C23-47A2AF1E2C35}
+		{CBDFE359-EE59-45F9-9412-FA8D63C40875} = {ECF951AD-C51D-4D8A-99CB-4C746AD4637E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E13E705-8929-4D26-BF93-2AF9A3D2B0C7}
